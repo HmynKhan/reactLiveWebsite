@@ -1,0 +1,43 @@
+.brandname{
+    color: orangered !important;
+    font-weight: bold !important;
+}
+
+.shaking-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .shaking-image {
+    animation: shake 2.5s infinite;
+  }
+  
+  @keyframes shake {
+    0%, 100% {
+        transform: translateX(0);
+      }
+      25% {
+        transform: translateX(-10px);
+      }
+      50% {
+        transform: translateX(10px);
+      }
+      75% {
+        transform: translateX(-10px);
+      }
+  }
+  
+
+  
+
+  .brandname{
+    margin-left: 5px;
+  }
+
+  .btn{
+
+ border-radius: 20px;
+
+  }

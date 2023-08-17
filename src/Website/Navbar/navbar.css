@@ -1,0 +1,21 @@
+.navbar{
+    background-color: white !important;
+}
+
+.navbar ul{
+    margin-left: 780px;
+}
+.navbar-brand{
+    color: orangered !important;
+    font-weight: bold;
+}
+
+.navbar a:hover{
+    font-weight: 900 !important;
+    color: orangered !important;
+}
+.activeClass{
+    font-weight: 900 !important;
+    color: orangered !important;
+
+}
